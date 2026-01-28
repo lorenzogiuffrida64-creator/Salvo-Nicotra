@@ -27,9 +27,9 @@ export const ContactForm: React.FC = () => {
   }, [location.state]);
 
   const services = [
-    "sala pesi", "boxe", "kickboxing", "mma", "karate", "kung fu", 
-    "pilates", "brazilian ju jitsu", "ju jitsu", "ninjutsu", 
-    "kobudo", "aikido", "zumba"
+    "sala pesi", "boxe", "kickboxing", "mma", "karate", "kung fu",
+    "pilates", "brazilian ju jitsu", "ju jitsu", "ninjutsu",
+    "kobudo", "aikido", "zumba", "difesa personale femminile"
   ];
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -87,10 +87,10 @@ export const ContactForm: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20 max-w-3xl mx-auto">
             <h2 className="text-6xl md:text-8xl lg:text-9xl font-heading leading-tight tracking-tighter lowercase mb-6">
-              entra nel <br /><span className="text-red-600 italic">team nicotra</span>
+              Entra nel <br /><span className="text-red-600 italic">team Nicotra</span>
             </h2>
             <p className="text-zinc-400 text-xl md:text-2xl leading-relaxed font-medium lowercase">
-              prenota oggi la tua prima sessione e inizia il percorso verso la tua versione migliore.
+              Prenota oggi la tua prima sessione e inizia il percorso verso la tua versione migliore.
             </p>
           </div>
 
@@ -98,9 +98,9 @@ export const ContactForm: React.FC = () => {
             <div className="space-y-8 md:space-y-12">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-8">
                 {[
-                  { icon: <Phone />, label: 'chiamaci', value: '+39 347 590 7497', href: 'tel:+393475907497' },
-                  { icon: <Mail />, label: 'email', value: 'palestre.salvonicotra@gmail.com', href: 'mailto:palestre.salvonicotra@gmail.com' },
-                  { icon: <MapPin />, label: 'vienici a trovare', value: 'viale vittorio veneto, 313', href: '#' },
+                  { icon: <Phone />, label: 'Chiamaci', value: '+39 347 590 7497', href: 'tel:+393475907497' },
+                  { icon: <Mail />, label: 'Email', value: 'palestre.salvonicotra@gmail.com', href: 'mailto:palestre.salvonicotra@gmail.com' },
+                  { icon: <MapPin />, label: 'Vienici a trovare', value: 'Viale Vittorio Veneto, 313', href: '#' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-6 group">
                     <div className="w-16 h-16 rounded-[1.25rem] bg-zinc-900 border border-zinc-800 flex items-center justify-center text-red-600 group-hover:scale-110 group-hover:bg-red-600 group-hover:text-white transition-all duration-500 shadow-xl group-hover:shadow-red-600/20">
@@ -123,8 +123,8 @@ export const ContactForm: React.FC = () => {
                     <div className="w-20 h-20 bg-green-500/20 text-green-500 rounded-full flex items-center justify-center mx-auto mb-8">
                       <CheckCircle className="w-10 h-10" />
                     </div>
-                    <h3 className="text-3xl font-black mb-4 lowercase">grazie!</h3>
-                    <p className="text-zinc-500 font-medium lowercase">la tua richiesta è stata ricevuta correttamente.</p>
+                    <h3 className="text-3xl font-black mb-4 lowercase">Grazie!</h3>
+                    <p className="text-zinc-500 font-medium lowercase">La tua richiesta è stata ricevuta correttamente.</p>
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-6">

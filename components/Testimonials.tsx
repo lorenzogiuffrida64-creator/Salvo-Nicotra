@@ -3,8 +3,8 @@ import { Quote } from 'lucide-react';
 
 const testimonials = [
   { name: "Giulia Patanè", role: "cliente", text: "Ben attrezzata, spogliatoi puliti, titolare e personale seri e disponibili. Hanno anche dei sacchi da boxe per scaricare un po di stress." },
-  { name: "VV", role: "cliente", text: "ambiente professionale e stimolante. i corsi di kickboxing sono il top a catania." },
-  { name: "Antonio Spina", role: "cliente", text: "ho raggiunto obiettivi che non credevo possibili. salvo ti segue con una passione unica." },
+  { name: "VV", role: "cliente", text: "Ambiente professionale e stimolante. I corsi di kickboxing sono il top a Catania." },
+  { name: "Antonio Spina", role: "cliente", text: "Ho raggiunto obiettivi che non credevo possibili. Salvo ti segue con una passione unica." },
   { name: "Andrea Spina", role: "cliente", text: "Ottima palestra, struttura ben attrezzata, TOP." },
   { name: "Tiziana Bonaccorso", role: "cliente", text: "Ambiente super accogliente, consigliatissima." },
   { name: "Enrico DI Stefano", role: "cliente", text: "Ottimi gli spazi dedicati alle arti marziali" },
@@ -18,10 +18,10 @@ export const Testimonials: React.FC = () => {
     <section className="py-24 md:py-32 lg:py-48 bg-zinc-950 overflow-hidden relative">
       <div className="container mx-auto px-4 sm:px-6 mb-16 md:mb-20 lg:mb-24 text-center relative z-20">
         <div className="inline-block px-5 py-2 border border-zinc-800 rounded-full text-[10px] uppercase tracking-[0.3em] text-zinc-500 mb-6 bg-zinc-900/50 backdrop-blur-md font-black">
-          dicono di noi
+          Dicono di noi
         </div>
-        <h2 className="text-6xl md:text-8xl font-heading mb-6 tracking-tighter lowercase">dicono di <span className="text-red-600 italic">noi</span></h2>
-        <p className="text-zinc-500 max-w-2xl mx-auto text-xl font-medium lowercase">storie di successo e trasformazione dei nostri clienti.</p>
+        <h2 className="text-6xl md:text-8xl font-heading mb-6 tracking-tighter lowercase">Dicono di <span className="text-red-600 italic">noi</span></h2>
+        <p className="text-zinc-500 max-w-2xl mx-auto text-xl font-medium lowercase">Storie di successo e trasformazione dei nostri clienti.</p>
       </div>
 
       <div className="relative h-[500px] sm:h-[600px] md:h-[700px] lg:h-[800px] mask-gradient-top-bottom z-10">

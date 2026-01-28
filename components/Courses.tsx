@@ -47,7 +47,7 @@ const CourseCard: React.FC<CourseCardProps> = ({ title, description, features, i
         state={{ selectedCourse: title }}
         className="w-full block text-center py-4 bg-[#dc2626] hover:bg-red-700 text-white font-black text-[10px] uppercase tracking-[0.2em] transition-all rounded-xl shadow-[0_15px_30px_-10px_rgba(220,38,38,0.5)] active:scale-[0.98]"
       >
-        prova adesso
+        Prova adesso
       </Link>
     </div>
   </div>
@@ -59,93 +59,101 @@ export const Courses: React.FC = () => {
       title: "boxe",
       badge: "disponibile",
       image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1200&auto=format&fit=crop",
-      description: "allenamento completo che combina tecnica pugilistica, resistenza cardiovascolare e forza esplosiva.",
-      features: ["tecnica pugilistica", "conditioning", "sparring"]
+      description: "Allenamento completo che combina tecnica pugilistica, resistenza cardiovascolare e forza esplosiva.",
+      features: ["Tecnica pugilistica", "Conditioning", "Sparring"]
     },
     {
       title: "kickboxing",
       badge: "popolare",
       image: "https://i.im.ge/2026/01/08/GuBLYa.sportive-blond-woman-has-boxing-training-with-her-experienced-trainer.jpeg",
-      description: "arte marziale dinamica che integra pugni e calci, sviluppando coordinazione e potenza.",
-      features: ["tecniche di calcio", "combinazioni", "fitness cardio"]
+      description: "Arte marziale dinamica che integra pugni e calci, sviluppando coordinazione e potenza.",
+      features: ["Tecniche di calcio", "Combinazioni", "Fitness cardio"]
     },
     {
       title: "mma",
       badge: "nuovo",
       badgeType: 'new',
       image: "https://i.im.ge/2026/01/08/GupJSF.mma-fighters-professional-ring-fighting-championship.jpeg",
-      description: "arti marziali miste: il sistema di combattimento totale che unisce lotta, striking e sottomissioni.",
-      features: ["grappling", "striking", "ground and pound"]
+      description: "Arti marziali miste: il sistema di combattimento totale che unisce lotta, striking e sottomissioni.",
+      features: ["Grappling", "Striking", "Ground and pound"]
     },
     {
       title: "karate",
       badge: "disponibile",
       image: "https://i.im.ge/2026/01/08/GuHrLY.female-doing-karate-pose-full-shot.jpeg",
-      description: "l'arte della mano vuota. disciplina giapponese che focalizza su colpi percussivi, parate e katà per lo sviluppo del carattere.",
-      features: ["kata e kumite", "disciplina", "autodifesa"]
+      description: "L'arte della mano vuota. Disciplina giapponese che focalizza su colpi percussivi, parate e katà per lo sviluppo del carattere.",
+      features: ["Kata e kumite", "Disciplina", "Autodifesa"]
     },
     {
       title: "bodybuilding",
       badge: "isotonico",
       image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1200&auto=format&fit=crop",
-      description: "ipertrofia e forza con il metodo nicotra. macchinari isotonici e pesi liberi di ultima generazione.",
-      features: ["ipertrofia muscolare", "forza pura", "schede personalizzate"]
+      description: "Ipertrofia e forza con il metodo Nicotra. Macchinari isotonici e pesi liberi di ultima generazione.",
+      features: ["Ipertrofia muscolare", "Forza pura", "Schede personalizzate"]
     },
     {
       title: "kung fu",
       badge: "tradizione",
       image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1200&auto=format&fit=crop",
-      description: "disciplina millenaria per l'equilibrio tra corpo e mente, attraverso forme e tecniche di difesa.",
-      features: ["forme tradizionali", "autodifesa", "agilità mentale"]
+      description: "Disciplina millenaria per l'equilibrio tra corpo e mente, attraverso forme e tecniche di difesa.",
+      features: ["Forme tradizionali", "Autodifesa", "Agilità mentale"]
     },
     {
       title: "pilates",
       badge: "benessere",
       image: "https://i.im.ge/2026/01/08/GuvgxY.pretty-girl-wearing-leggings-short-top-standing-side-plank-one-hand-gym-training-body-core-balance-strengthening-abs-muscles-attractive-female-doing-planking-bodyweight-exercise.jpeg",
-      description: "sistema di esercizi che rafforza il core, migliora postura e flessibilità in modo controllato.",
-      features: ["core strength", "postura corretta", "mindfulness"]
+      description: "Sistema di esercizi che rafforza il core, migliora postura e flessibilità in modo controllato.",
+      features: ["Core strength", "Postura corretta", "Mindfulness"]
     },
     {
       title: "brazilian ju jitsu",
       badge: "bjj",
       image: "https://images.unsplash.com/photo-1564415315949-7a0c4c73aab4?q=80&w=1200&auto=format&fit=crop",
-      description: "l'arte della leva e del controllo al suolo. impara a neutralizzare avversari più grandi.",
-      features: ["lotta a terra", "sottomissioni", "strategia"]
+      description: "L'arte della leva e del controllo al suolo. Impara a neutralizzare avversari più grandi.",
+      features: ["Lotta a terra", "Sottomissioni", "Strategia"]
     },
     {
       title: "ju jitsu",
       badge: "giapponese",
       image: "https://i.im.ge/2026/01/08/GuJDT8.bearded-karate-fighter-dressed-white-kimono-action.jpeg",
-      description: "la dolce arte dell'autodifesa tradizionale giapponese. leve, proiezioni e immobilizzazioni.",
-      features: ["difesa personale", "leve articolari", "tradizione samurai"]
+      description: "La dolce arte dell'autodifesa tradizionale giapponese. Leve, proiezioni e immobilizzazioni.",
+      features: ["Difesa personale", "Leve articolari", "Tradizione samurai"]
     },
     {
       title: "ninjutsu",
       badge: "esclusivo",
       image: "https://images.unsplash.com/photo-1552072805-2a9039d00e57?q=80&w=1200&auto=format&fit=crop",
-      description: "l'arte della sopravvivenza e dello stealth. studio di tecniche storiche dei ninja.",
-      features: ["movimenti furtivi", "armi tradizionali", "tattica"]
+      description: "L'arte della sopravvivenza e dello stealth. Studio di tecniche storiche dei ninja.",
+      features: ["Movimenti furtivi", "Armi tradizionali", "Tattica"]
     },
     {
       title: "kobudo",
       badge: "armi",
       image: "https://i.im.ge/2026/01/08/GunPKK.people-practicing-tai-chi-front-view.jpeg",
-      description: "lo studio delle armi tradizionali di okinawa. padroneggia bo, sai, nunchaku e tonfa.",
-      features: ["armi orientali", "coordinazione", "precisione"]
+      description: "Lo studio delle armi tradizionali di Okinawa. Padroneggia bo, sai, nunchaku e tonfa.",
+      features: ["Armi orientali", "Coordinazione", "Precisione"]
     },
     {
       title: "aikido",
       badge: "armonia",
       image: "https://i.im.ge/2026/01/08/Gu4yP0.two-judo-wrestlers-showing-their-technical-skills-fight-club.jpeg",
-      description: "usa l'energia dell'avversario a tuo favore. un'arte marziale non violenta focalizzata sull'armonia.",
-      features: ["flusso di energia", "proiezioni", "controllo articolare"]
+      description: "Usa l'energia dell'avversario a tuo favore. Un'arte marziale non violenta focalizzata sull'armonia.",
+      features: ["Flusso di energia", "Proiezioni", "Controllo articolare"]
     },
     {
       title: "zumba",
       badge: "energy",
       image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1200&auto=format&fit=crop",
-      description: "fitness e divertimento a ritmo di musica. brucia calorie migliorando l'umore.",
-      features: ["ritmi latini", "brucia grassi", "coordinazione danza"]
+      description: "Fitness e divertimento a ritmo di musica. Brucia calorie migliorando l'umore.",
+      features: ["Ritmi latini", "Brucia grassi", "Coordinazione danza"]
+    },
+    {
+      title: "difesa personale femminile",
+      badge: "sicurezza",
+      badgeType: 'new',
+      image: "https://i.pinimg.com/1200x/fd/9d/0d/fd9d0d122c9f9a1e35c860354c14fa55.jpg",
+      description: "Tecniche efficaci di autodifesa pensate per le donne. Impara a proteggerti in ogni situazione.",
+      features: ["Tecniche di difesa", "Consapevolezza situazionale", "Sicurezza personale"]
     }
   ];
 
@@ -154,10 +162,10 @@ export const Courses: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-24">
           <h2 className="text-6xl md:text-8xl font-heading mb-6 tracking-tighter lowercase">
-            i nostri <span className="text-red-600 italic">corsi</span>
+            I nostri <span className="text-red-600 italic">corsi</span>
           </h2>
           <p className="text-zinc-500 font-bold uppercase tracking-[0.3em] text-[11px] mb-8">
-            l'eccellenza nell'allenamento e nelle arti marziali a catania
+            L'eccellenza nell'allenamento e nelle arti marziali a Catania
           </p>
           <div className="w-32 h-1 bg-red-600 mx-auto rounded-full shadow-[0_0_15px_rgba(220,38,38,0.8)]" />
         </div>

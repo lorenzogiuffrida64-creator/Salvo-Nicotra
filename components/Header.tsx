@@ -26,11 +26,11 @@ export const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { path: '/', label: 'home' },
-    { path: '/chi-siamo', label: 'chi è salvo nicotra' },
-    { path: '/corsi', label: 'i nostri corsi' },
-    { path: '/sala-pesi', label: 'sala pesi' },
-    { path: '/contatti', label: 'contatti' },
+    { path: '/', label: 'Home' },
+    { path: '/chi-siamo', label: 'Chi è Salvo Nicotra' },
+    { path: '/corsi', label: 'I nostri corsi' },
+    { path: '/sala-pesi', label: 'Sala pesi' },
+    { path: '/contatti', label: 'Contatti' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
@@ -65,7 +65,7 @@ export const Header: React.FC = () => {
             to="/admin"
             className="flex items-center gap-2 text-[10px] font-black uppercase tracking-widest text-zinc-600 hover:text-white transition-all pl-4 border-l border-zinc-800 ml-2"
           >
-            <LayoutDashboard className="w-3.5 h-3.5" /> <span className="hidden xl:inline">dashboard</span>
+            <LayoutDashboard className="w-3.5 h-3.5" /> <span className="hidden xl:inline">Dashboard</span>
           </Link>
         </nav>
 
@@ -74,7 +74,7 @@ export const Header: React.FC = () => {
             to="/contatti"
             className="hidden sm:inline-block bg-red-600 hover:bg-red-700 text-white px-5 xl:px-8 py-2.5 rounded-full text-[10px] font-black uppercase tracking-widest transition-all hover:scale-105 active:scale-95 shadow-lg shadow-red-600/20 whitespace-nowrap"
           >
-            prova adesso
+            Prova adesso
           </Link>
 
           <button 
@@ -112,7 +112,7 @@ export const Header: React.FC = () => {
               onClick={() => setIsMenuOpen(false)}
               className="flex items-center gap-3 text-xl font-heading tracking-tight lowercase text-zinc-500 hover:text-red-500 transition-colors"
             >
-              <LayoutDashboard className="w-6 h-6" /> dashboard admin
+              <LayoutDashboard className="w-6 h-6" /> Dashboard admin
             </Link>
             <div className="sm:hidden">
               <Link 
@@ -120,7 +120,7 @@ export const Header: React.FC = () => {
                 onClick={() => setIsMenuOpen(false)}
                 className="block w-full bg-red-600 hover:bg-red-700 text-white text-center py-5 rounded-2xl text-xs font-black uppercase tracking-[0.2em] transition-all shadow-xl shadow-red-600/20"
               >
-                prova adesso
+                Prova adesso
               </Link>
             </div>
           </div>

@@ -3,10 +3,10 @@ import { Dumbbell, ScrollText, Timer, ShieldCheck } from 'lucide-react';
 
 export const Philosophy: React.FC = () => {
   const points = [
-    { icon: <Dumbbell className="text-red-600" />, title: 'attrezzature premium', desc: 'macchine professionali e pesi liberi per ogni esigenza' },
-    { icon: <ScrollText className="text-red-600" />, title: 'programmi personalizzati', desc: 'schede di allenamento create su misura per te' },
-    { icon: <Timer className="text-red-600" />, title: 'orari flessibili', desc: 'ampia disponibilità per adattarsi ai tuoi impegni' },
-    { icon: <ShieldCheck className="text-red-600" />, title: 'assistenza continua', desc: 'supervisione e correzione tecnica costante' },
+    { icon: <Dumbbell className="text-red-600" />, title: 'Attrezzature premium', desc: 'Macchine professionali e pesi liberi per ogni esigenza' },
+    { icon: <ScrollText className="text-red-600" />, title: 'Programmi personalizzati', desc: 'Schede di allenamento create su misura per te' },
+    { icon: <Timer className="text-red-600" />, title: 'Orari flessibili', desc: 'Ampia disponibilità per adattarsi ai tuoi impegni' },
+    { icon: <ShieldCheck className="text-red-600" />, title: 'Assistenza continua', desc: 'Supervisione e correzione tecnica costante' },
   ];
 
   const carouselImages = [
@@ -27,10 +27,10 @@ export const Philosophy: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center">
           <div className="space-y-8 md:space-y-12">
             <h2 className="text-6xl md:text-8xl font-heading mb-8 lowercase tracking-tighter">
-              sala <span className="text-red-600 italic">pesi</span>
+              Sala <span className="text-red-600 italic">pesi</span>
             </h2>
             <p className="text-gray-400 text-xl md:text-2xl mb-12 leading-relaxed font-medium lowercase">
-              costruisci forza, massa muscolare e definizione con il supporto di un professionista con oltre 40 anni di esperienza nel bodybuilding.
+              Costruisci forza, massa muscolare e definizione con il supporto di un professionista con oltre 40 anni di esperienza nel bodybuilding.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
@@ -64,9 +64,9 @@ export const Philosophy: React.FC = () => {
         </div>
 
         <div className="text-center pt-24 md:pt-32 lg:pt-48">
-          <h2 className="text-5xl md:text-7xl font-heading mb-4 tracking-tighter lowercase">la nostra <span className="text-red-600 italic">filosofia</span></h2>
+          <h2 className="text-5xl md:text-7xl font-heading mb-4 tracking-tighter lowercase">La nostra <span className="text-red-600 italic">filosofia</span></h2>
           <p className="text-gray-400 max-w-3xl mx-auto italic text-xl font-light lowercase">
-            "un approccio integrato che trasforma il tuo modo di allenarti e vivere"
+            "Un approccio integrato che trasforma il tuo modo di allenarti e vivere"
           </p>
           <div className="w-32 h-1.5 bg-red-600 mx-auto mt-10 rounded-full shadow-[0_0_20px_rgba(220,38,38,0.5)]" />
         </div>

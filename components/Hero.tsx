@@ -38,7 +38,7 @@ export const Hero: React.FC = () => {
             className="group relative px-12 py-5 bg-red-600 text-white rounded-2xl font-bold text-lg overflow-hidden transition-all hover:scale-105 shadow-[0_15px_35px_-10px_rgba(220,38,38,0.7)] hover:shadow-red-600/40 active:scale-95"
           >
             <span className="relative z-10 flex items-center gap-2">
-              prova adesso <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+              Prova adesso <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </span>
             <div className="absolute inset-0 bg-white/20 translate-y-full group-hover:translate-y-0 transition-transform duration-300" />
           </Link>
@@ -47,13 +47,13 @@ export const Hero: React.FC = () => {
             to="/corsi"
             className="px-12 py-5 border border-zinc-700 bg-zinc-900/50 backdrop-blur-sm text-white rounded-2xl font-bold text-lg hover:bg-white hover:text-black hover:border-white transition-all duration-300 shadow-xl active:scale-95"
           >
-            scopri i corsi
+            Scopri i corsi
           </Link>
         </div>
 
         <div className={`mt-16 flex items-center justify-center gap-3 text-zinc-500 bg-zinc-900/40 backdrop-blur-md w-fit mx-auto px-6 py-3 rounded-full border border-zinc-800/50 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <MapPin className="w-4 h-4 text-red-600" />
-          <span className="text-xs font-bold tracking-widest uppercase">viale vittorio veneto, 313, catania</span>
+          <span className="text-xs font-bold tracking-widest uppercase">Viale Vittorio Veneto, 313, Catania</span>
         </div>
       </div>
 

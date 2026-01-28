@@ -167,8 +167,8 @@ export const AdminDashboard: React.FC = () => {
         <div className="flex items-center gap-3 mb-12 px-2">
           <div className="w-10 h-10 bg-red-600 rounded-xl flex items-center justify-center font-black text-white italic shadow-lg shadow-red-600/20">SN</div>
           <div>
-            <h1 className="text-white font-bold tracking-tight text-sm uppercase">salvo nicotra</h1>
-            <p className="text-[10px] text-zinc-500 uppercase tracking-widest font-black">admin panel</p>
+            <h1 className="text-white font-bold tracking-tight text-sm uppercase">Salvo Nicotra</h1>
+            <p className="text-[10px] text-zinc-500 uppercase tracking-widest font-black">Admin panel</p>
           </div>
         </div>
         
@@ -192,7 +192,7 @@ export const AdminDashboard: React.FC = () => {
         <header className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-12">
           <div>
             <h2 className="text-3xl md:text-5xl font-black text-white tracking-tight lowercase">
-              gestione <span className="text-red-600">richieste</span>
+              Gestione <span className="text-red-600">richieste</span>
             </h2>
             <div className="flex items-center gap-4 mt-2">
               <p className="text-zinc-500 text-xs uppercase tracking-widest font-bold flex items-center gap-2">
@@ -328,11 +328,11 @@ export const AdminDashboard: React.FC = () => {
         <div className="fixed inset-0 z-[100] flex items-center justify-center p-6 bg-black/80 backdrop-blur-sm animate-in fade-in duration-300">
           <div className="bg-[#0d0d0d] border border-zinc-800 w-full max-w-lg rounded-[2.5rem] p-10 relative animate-in zoom-in duration-300">
             <button onClick={() => setIsNoteModalOpen(false)} className="absolute top-8 right-8 text-zinc-600 hover:text-white transition-colors"><X className="w-6 h-6" /></button>
-            <h3 className="text-2xl font-black text-white mb-6 lowercase">nota per <span className="text-red-600 italic">{selectedRequest?.name}</span></h3>
+            <h3 className="text-2xl font-black text-white mb-6 lowercase">Nota per <span className="text-red-600 italic">{selectedRequest?.name}</span></h3>
             <textarea value={currentNote} onChange={(e) => setCurrentNote(e.target.value)} className="w-full bg-black border border-zinc-800 rounded-2xl p-6 text-white text-sm outline-none min-h-[150px] mb-8 focus:border-red-600/50 transition-all resize-none" placeholder="Scrivi una nota..." />
             <div className="flex gap-4">
-              <button onClick={() => setIsNoteModalOpen(false)} className="flex-1 py-4 bg-zinc-900 text-zinc-400 font-bold rounded-2xl border border-zinc-800">annulla</button>
-              <button onClick={saveNote} className="flex-1 py-4 bg-red-600 text-white font-black rounded-2xl shadow-lg shadow-red-600/20">salva nota</button>
+              <button onClick={() => setIsNoteModalOpen(false)} className="flex-1 py-4 bg-zinc-900 text-zinc-400 font-bold rounded-2xl border border-zinc-800">Annulla</button>
+              <button onClick={saveNote} className="flex-1 py-4 bg-red-600 text-white font-black rounded-2xl shadow-lg shadow-red-600/20">Salva nota</button>
             </div>
           </div>
         </div>
