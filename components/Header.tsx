@@ -44,7 +44,7 @@ export const Header: React.FC = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         <div className="flex items-center gap-2 relative z-50 shrink-0">
           <Link to="/" className="text-xl md:text-2xl font-bold tracking-tighter whitespace-nowrap" onClick={() => setIsMenuOpen(false)}>
-            <span className="text-red-600">salvo</span> <span className="text-white">nicotra</span>
+            <span className="text-red-600">Salvo</span> <span className="text-white">Nicotra</span>
           </Link>
         </div>
 

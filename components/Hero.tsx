@@ -28,8 +28,8 @@ export const Hero: React.FC = () => {
         </div>
 
         <h1 className={`font-heading text-5xl md:text-8xl lg:text-9xl mb-8 tracking-tighter leading-[0.9] text-white transition-all duration-1000 delay-150 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-          palestre <br />
-          <span className="text-red-600 italic drop-shadow-[0_0_30px_rgba(220,38,38,0.4)]">salvo nicotra</span>
+          Palestre <br />
+          <span className="text-red-600 italic drop-shadow-[0_0_30px_rgba(220,38,38,0.4)]">Salvo Nicotra</span>
         </h1>
 
         <div className={`flex flex-col sm:flex-row items-center justify-center gap-6 transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
