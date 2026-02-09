@@ -17,8 +17,8 @@ export const Philosophy: React.FC = () => {
     "https://img.sanishtech.com/u/3dd6ca314a427c5d2c80cefc58b96c32.jpeg",
     "https://img.sanishtech.com/u/4b3c0eed89ec9ccf41d1fb34dc870d95.jpeg",
     "https://img.sanishtech.com/u/2217039de90001fff3ebf3899a538477.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8bjD.tempImage4WHXxd.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8cR4.tempImage9qHwne.jpeg"
+    "https://img.sanishtech.com/u/01906bb84c9b41dfa83ebb1271151e82.jpeg",
+    "https://img.sanishtech.com/u/569177227cd072c05f3be84e5f9dda8d.jpeg"
   ];
 
   return (
