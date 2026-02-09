@@ -146,6 +146,14 @@ export const Courses: React.FC = () => {
       image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1200&auto=format&fit=crop",
       description: "fitness e divertimento a ritmo di musica. brucia calorie migliorando l'umore.",
       features: ["ritmi latini", "brucia grassi", "coordinazione danza"]
+    },
+    {
+      title: "difesa personale femminile",
+      badge: "nuovo",
+      badgeType: 'new',
+      image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop",
+      description: "corso dedicato alle donne per imparare tecniche efficaci di autodifesa in situazioni reali. sicurezza, consapevolezza e reazione.",
+      features: ["tecniche di autodifesa", "gestione dello stress", "consapevolezza situazionale"]
     }
   ];
 
