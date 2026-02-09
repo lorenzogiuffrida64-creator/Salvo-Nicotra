@@ -10,12 +10,12 @@ export const Philosophy: React.FC = () => {
   ];
 
   const carouselImages = [
-    "https://i.im.ge/2026/01/08/Guc1YP.IMG-1639.jpeg",
-    "https://i.im.ge/2026/01/08/GugdcK.Generated-Image-January-08-2026-2-51PM.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8y4X.Generated-Image-January-08-2026-2-46PM.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8Cq8.tempImageJ5fuWt.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8Eth.tempImageuwoFCn.jpeg",
-    "https://i.im.ge/2026/01/08/Gu8xzM.tempImageVtf9gJ.jpeg",
+    "file:///Users/lollo/Downloads/Generated%20Image%20January%2008,%202026%20-%202_46PM.jpeg",
+    "file:///Users/lollo/Downloads/Generated%20Image%20January%2008,%202026%20-%202_51PM.jpeg",
+    "file:///Users/lollo/Downloads/IMG_1629.HEIC",
+    "file:///Users/lollo/Downloads/IMG_1634.HEIC",
+    "file:///Users/lollo/Downloads/IMG_1636.HEIC",
+    "file:///Users/lollo/Downloads/IMG_1638.HEIC",
     "https://i.im.ge/2026/01/08/Gu8YFY.tempImageyo86nd.jpeg",
     "https://i.im.ge/2026/01/08/Gu8bjD.tempImage4WHXxd.jpeg",
     "https://i.im.ge/2026/01/08/Gu8cR4.tempImage9qHwne.jpeg"
