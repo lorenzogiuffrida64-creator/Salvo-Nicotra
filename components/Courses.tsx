@@ -65,7 +65,7 @@ export const Courses: React.FC = () => {
     {
       title: "kickboxing",
       badge: "popolare",
-      image: "https://i.im.ge/2026/01/08/GuBLYa.sportive-blond-woman-has-boxing-training-with-her-experienced-trainer.jpeg",
+      image: "https://i.pinimg.com/736x/bd/35/71/bd35714617d5f41f3836bc13f9803ef2.jpg",
       description: "arte marziale dinamica che integra pugni e calci, sviluppando coordinazione e potenza.",
       features: ["tecniche di calcio", "combinazioni", "fitness cardio"]
     },
@@ -73,14 +73,14 @@ export const Courses: React.FC = () => {
       title: "mma",
       badge: "nuovo",
       badgeType: 'new',
-      image: "https://i.im.ge/2026/01/08/GupJSF.mma-fighters-professional-ring-fighting-championship.jpeg",
+      image: "https://i.pinimg.com/736x/01/d5/1a/01d51ae6ecd45f231cf7caa477fc51db.jpg",
       description: "arti marziali miste: il sistema di combattimento totale che unisce lotta, striking e sottomissioni.",
       features: ["grappling", "striking", "ground and pound"]
     },
     {
       title: "karate",
       badge: "disponibile",
-      image: "https://i.im.ge/2026/01/08/GuHrLY.female-doing-karate-pose-full-shot.jpeg",
+      image: "https://i.pinimg.com/736x/cd/6e/0f/cd6e0fe86beb0fd68208a55b6e3b6ec8.jpg",
       description: "l'arte della mano vuota. disciplina giapponese che focalizza su colpi percussivi, parate e katà per lo sviluppo del carattere.",
       features: ["kata e kumite", "disciplina", "autodifesa"]
     },
@@ -101,7 +101,7 @@ export const Courses: React.FC = () => {
     {
       title: "pilates",
       badge: "benessere",
-      image: "https://i.im.ge/2026/01/08/GuvgxY.pretty-girl-wearing-leggings-short-top-standing-side-plank-one-hand-gym-training-body-core-balance-strengthening-abs-muscles-attractive-female-doing-planking-bodyweight-exercise.jpeg",
+      image: "https://i.pinimg.com/736x/5f/48/71/5f4871dd39aa951c56c934b80b17e887.jpg",
       description: "sistema di esercizi che rafforza il core, migliora postura e flessibilità in modo controllato.",
       features: ["core strength", "postura corretta", "mindfulness"]
     },
@@ -115,7 +115,7 @@ export const Courses: React.FC = () => {
     {
       title: "ju jitsu",
       badge: "giapponese",
-      image: "https://i.im.ge/2026/01/08/GuJDT8.bearded-karate-fighter-dressed-white-kimono-action.jpeg",
+      image: "https://i.pinimg.com/1200x/bd/74/a3/bd74a37cdc2546cc21d215d5bc0b2956.jpg",
       description: "la dolce arte dell'autodifesa tradizionale giapponese. leve, proiezioni e immobilizzazioni.",
       features: ["difesa personale", "leve articolari", "tradizione samurai"]
     },
@@ -129,14 +129,14 @@ export const Courses: React.FC = () => {
     {
       title: "kobudo",
       badge: "armi",
-      image: "https://i.im.ge/2026/01/08/GunPKK.people-practicing-tai-chi-front-view.jpeg",
+      image: "https://i.pinimg.com/1200x/82/3e/87/823e87bddb4b5dc78ee322aaa48be146.jpg",
       description: "lo studio delle armi tradizionali di okinawa. padroneggia bo, sai, nunchaku e tonfa.",
       features: ["armi orientali", "coordinazione", "precisione"]
     },
     {
       title: "aikido",
       badge: "armonia",
-      image: "https://i.im.ge/2026/01/08/Gu4yP0.two-judo-wrestlers-showing-their-technical-skills-fight-club.jpeg",
+      image: "https://i.pinimg.com/736x/e9/42/17/e94217b91e3022589b93956a5d7f5fd4.jpg",
       description: "usa l'energia dell'avversario a tuo favore. un'arte marziale non violenta focalizzata sull'armonia.",
       features: ["flusso di energia", "proiezioni", "controllo articolare"]
     },

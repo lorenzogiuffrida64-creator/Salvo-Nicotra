@@ -22,7 +22,7 @@ export const About: React.FC = () => {
           <div className="relative group rounded-2xl md:rounded-[3rem] overflow-hidden">
              <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl md:rounded-[3rem] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
             <img
-              src="https://i.im.ge/2026/01/08/Gu88TC.Generated-Image-January-08-2026-2-48PM.jpeg"
+              src="https://img.sanishtech.com/u/4087fea04384b52faae1319df328fe53.jpeg"
               alt="Salvo Nicotra Palestra"
               className="relative rounded-2xl md:rounded-[3rem] w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[650px] object-cover transition duration-1000 scale-100 group-hover:scale-105 shadow-2xl"
             />
