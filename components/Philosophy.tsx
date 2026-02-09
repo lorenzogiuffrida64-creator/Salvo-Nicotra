@@ -10,13 +10,13 @@ export const Philosophy: React.FC = () => {
   ];
 
   const carouselImages = [
-    "file:///Users/lollo/Downloads/Generated%20Image%20January%2008,%202026%20-%202_46PM.jpeg",
-    "file:///Users/lollo/Downloads/Generated%20Image%20January%2008,%202026%20-%202_51PM.jpeg",
-    "file:///Users/lollo/Downloads/IMG_1629.HEIC",
-    "file:///Users/lollo/Downloads/IMG_1634.HEIC",
-    "file:///Users/lollo/Downloads/IMG_1636.HEIC",
-    "file:///Users/lollo/Downloads/IMG_1638.HEIC",
-    "https://i.im.ge/2026/01/08/Gu8YFY.tempImageyo86nd.jpeg",
+    "https://img.sanishtech.com/u/413b76f57b65d36791b2f9d6eb39f4ab.jpeg",
+    "https://img.sanishtech.com/u/cb9ef7a2e43f85a0720081664e83759d.jpeg",
+    "https://img.sanishtech.com/u/fc41b98de599cbd26305ca37a651d5ce.jpeg",
+    "https://img.sanishtech.com/u/f2235f6b8af9f23bb80af99bf14ec390.jpeg",
+    "https://img.sanishtech.com/u/3dd6ca314a427c5d2c80cefc58b96c32.jpeg",
+    "https://img.sanishtech.com/u/4b3c0eed89ec9ccf41d1fb34dc870d95.jpeg",
+    "https://img.sanishtech.com/u/2217039de90001fff3ebf3899a538477.jpeg",
     "https://i.im.ge/2026/01/08/Gu8bjD.tempImage4WHXxd.jpeg",
     "https://i.im.ge/2026/01/08/Gu8cR4.tempImage9qHwne.jpeg"
   ];
