@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
 
         <div className={`mt-16 flex items-center justify-center gap-3 text-zinc-500 bg-zinc-900/40 backdrop-blur-md w-fit mx-auto px-6 py-3 rounded-full border border-zinc-800/50 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
           <MapPin className="w-4 h-4 text-red-600" />
-          <span className="text-xs font-bold tracking-widest uppercase">viale vittorio veneto, 313, catania</span>
+          <span className="text-xs font-bold tracking-widest uppercase">Viale Vittorio Veneto, 313, Catania</span>
         </div>
       </div>
 

@@ -88,10 +88,10 @@ export const ContactForm: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-20 max-w-3xl mx-auto">
             <h2 className="text-6xl md:text-8xl lg:text-9xl font-heading leading-tight tracking-tighter lowercase mb-6">
-              entra nel <br /><span className="text-red-600 italic">team nicotra</span>
+              Entra nel <br /><span className="text-red-600 italic">Team Nicotra</span>
             </h2>
             <p className="text-zinc-400 text-xl md:text-2xl leading-relaxed font-medium lowercase">
-              prenota oggi la tua prima sessione e inizia il percorso verso la tua versione migliore.
+              Prenota oggi la tua prima sessione e inizia il percorso verso la tua versione migliore.
             </p>
           </div>
 
@@ -101,7 +101,7 @@ export const ContactForm: React.FC = () => {
                 {[
                   { icon: <Phone />, label: 'chiamaci', value: '+39 347 590 7497', href: 'tel:+393475907497' },
                   { icon: <Mail />, label: 'email', value: 'palestre.salvonicotra@gmail.com', href: 'mailto:palestre.salvonicotra@gmail.com' },
-                  { icon: <MapPin />, label: 'vienici a trovare', value: 'viale vittorio veneto, 313', href: '#' },
+                  { icon: <MapPin />, label: 'vienici a trovare', value: 'Viale Vittorio Veneto, 313', href: '#' },
                 ].map((item, i) => (
                   <div key={i} className="flex items-center gap-6 group">
                     <div className="w-16 h-16 rounded-[1.25rem] bg-zinc-900 border border-zinc-800 flex items-center justify-center text-red-600 group-hover:scale-110 group-hover:bg-red-600 group-hover:text-white transition-all duration-500 shadow-xl group-hover:shadow-red-600/20">

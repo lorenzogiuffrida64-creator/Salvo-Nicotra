@@ -3,22 +3,22 @@ import { Dumbbell, ScrollText, Timer, ShieldCheck } from 'lucide-react';
 
 export const Philosophy: React.FC = () => {
   const points = [
-    { icon: <Dumbbell className="text-red-600" />, title: 'attrezzature premium', desc: 'macchine professionali e pesi liberi per ogni esigenza' },
-    { icon: <ScrollText className="text-red-600" />, title: 'programmi personalizzati', desc: 'schede di allenamento create su misura per te' },
-    { icon: <Timer className="text-red-600" />, title: 'orari flessibili', desc: 'ampia disponibilità per adattarsi ai tuoi impegni' },
-    { icon: <ShieldCheck className="text-red-600" />, title: 'assistenza continua', desc: 'supervisione e correzione tecnica costante' },
+    { icon: <Dumbbell className="text-red-600" />, title: 'Attrezzature Premium', desc: 'Macchine professionali e pesi liberi per ogni esigenza' },
+    { icon: <ScrollText className="text-red-600" />, title: 'Programmi Personalizzati', desc: 'Schede di allenamento create su misura per te' },
+    { icon: <Timer className="text-red-600" />, title: 'Orari Flessibili', desc: 'Ampia disponibilità per adattarsi ai tuoi impegni' },
+    { icon: <ShieldCheck className="text-red-600" />, title: 'Assistenza Continua', desc: 'Supervisione e correzione tecnica costante' },
   ];
 
   const carouselImages = [
-    "https://img.sanishtech.com/u/413b76f57b65d36791b2f9d6eb39f4ab.jpeg",
-    "https://img.sanishtech.com/u/cb9ef7a2e43f85a0720081664e83759d.jpeg",
-    "https://img.sanishtech.com/u/fc41b98de599cbd26305ca37a651d5ce.jpeg",
-    "https://img.sanishtech.com/u/f2235f6b8af9f23bb80af99bf14ec390.jpeg",
-    "https://img.sanishtech.com/u/3dd6ca314a427c5d2c80cefc58b96c32.jpeg",
-    "https://img.sanishtech.com/u/4b3c0eed89ec9ccf41d1fb34dc870d95.jpeg",
-    "https://img.sanishtech.com/u/2217039de90001fff3ebf3899a538477.jpeg",
-    "https://img.sanishtech.com/u/01906bb84c9b41dfa83ebb1271151e82.jpeg",
-    "https://img.sanishtech.com/u/569177227cd072c05f3be84e5f9dda8d.jpeg"
+    "/images/IMG_1639.webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.25.36%20(1).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.48.webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.43%20(9).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.43%20(8).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.43%20(7).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.43%20(4).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.43%20(3).webp",
+    "/images/WhatsApp%20Image%202026-01-12%20at%2018.26.42%20(2).webp"
   ];
 
   return (
@@ -27,10 +27,10 @@ export const Philosophy: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 lg:gap-20 items-center">
           <div className="space-y-8 md:space-y-12">
             <h2 className="text-6xl md:text-8xl font-heading mb-8 lowercase tracking-tighter">
-              sala <span className="text-red-600 italic">pesi</span>
+              Sala <span className="text-red-600 italic">Pesi</span>
             </h2>
             <p className="text-gray-400 text-xl md:text-2xl mb-12 leading-relaxed font-medium lowercase">
-              costruisci forza, massa muscolare e definizione con il supporto di un professionista con oltre 40 anni di esperienza nel bodybuilding.
+              Costruisci forza, massa muscolare e definizione con il supporto di un professionista con oltre 40 anni di esperienza nel bodybuilding.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 lg:gap-8">
@@ -64,7 +64,7 @@ export const Philosophy: React.FC = () => {
         </div>
 
         <div className="text-center pt-24 md:pt-32 lg:pt-48">
-          <h2 className="text-5xl md:text-7xl font-heading mb-4 tracking-tighter lowercase">la nostra <span className="text-red-600 italic">filosofia</span></h2>
+          <h2 className="text-5xl md:text-7xl font-heading mb-4 tracking-tighter lowercase">La Nostra <span className="text-red-600 italic">Filosofia</span></h2>
           <p className="text-gray-400 max-w-3xl mx-auto italic text-xl font-light lowercase">
             "un approccio integrato che trasforma il tuo modo di allenarti e vivere"
           </p>

@@ -13,7 +13,7 @@ export const About: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16 md:mb-20 lg:mb-24">
           <h2 className="text-6xl md:text-8xl font-heading mb-6 tracking-tighter">
-            chi è <span className="text-red-600 italic">salvo nicotra</span>
+            Chi è <span className="text-red-600 italic">Salvo Nicotra</span>
           </h2>
           <div className="w-24 h-1 bg-red-600 mx-auto rounded-full" />
         </div>
@@ -22,7 +22,7 @@ export const About: React.FC = () => {
           <div className="relative group rounded-2xl md:rounded-[3rem] overflow-hidden">
              <div className="absolute -inset-1 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl md:rounded-[3rem] blur opacity-20 group-hover:opacity-40 transition duration-1000"></div>
             <img
-              src="https://img.sanishtech.com/u/4087fea04384b52faae1319df328fe53.jpeg"
+              src="/images/WhatsApp%20Image%202026-01-12%20at%2018.31.20.webp"
               alt="Salvo Nicotra Palestra"
               className="relative rounded-2xl md:rounded-[3rem] w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[650px] object-cover transition duration-1000 scale-100 group-hover:scale-105 shadow-2xl"
             />
@@ -30,20 +30,19 @@ export const About: React.FC = () => {
 
           <div className="space-y-6 md:space-y-8 lg:space-y-10">
             <p className="text-zinc-300 text-2xl leading-relaxed font-medium">
-              con oltre <span className="text-red-500 font-black italic">50 anni di esperienza</span> nel mondo del fitness, salvo nicotra è il punto di riferimento a catania.
+              Con oltre <span className="text-red-500 font-black italic">50 anni di esperienza</span> nel mondo del fitness, Salvo Nicotra è il punto di riferimento a Catania.
             </p>
             <p className="text-zinc-400 text-lg leading-relaxed">
-              la nostra filosofia unisce <span className="text-red-600 font-bold italic underline decoration-red-600/30 decoration-4 underline-offset-8">tecnica, disciplina e benessere mentale</span>, creando programmi personalizzati che trasformano non solo il corpo, ma anche lo stile di vita.
+              La nostra filosofia unisce <span className="text-red-600 font-bold italic underline decoration-red-600/30 decoration-4 underline-offset-8">tecnica, disciplina e benessere mentale</span>, creando programmi personalizzati che trasformano non solo il corpo, ma anche lo stile di vita.
             </p>
             <p className="text-zinc-400 text-lg leading-relaxed">
-              dalle arti marziali al pilates, fino alla sala pesi d'avanguardia - salvo guida ogni atleta con la stessa passione di quando ha iniziato, decenni fa.
+              Dalle arti marziali al Pilates, fino alla sala pesi d'avanguardia - Salvo guida ogni atleta con la stessa passione di quando ha iniziato, decenni fa.
             </p>
 
             <div className="pt-6 md:pt-8 lg:pt-10 border-l-[8px] md:border-l-[12px] border-red-600 pl-6 md:pl-8 lg:pl-10">
-              <span className="italic text-3xl md:text-4xl text-white font-black tracking-tight leading-tight block mb-4 lowercase">
+              <span className="italic text-3xl md:text-4xl text-white font-black tracking-tight leading-tight block lowercase">
                 "il vero successo è superare i propri limiti ogni giorno"
               </span>
-              <span className="text-red-600 font-bold uppercase tracking-widest text-xs">- salvo nicotra</span>
             </div>
           </div>
         </div>

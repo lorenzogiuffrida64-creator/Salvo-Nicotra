@@ -59,14 +59,14 @@ export const Courses: React.FC = () => {
       title: "boxe",
       badge: "disponibile",
       image: "https://images.unsplash.com/photo-1549719386-74dfcbf7dbed?q=80&w=1200&auto=format&fit=crop",
-      description: "allenamento completo che combina tecnica pugilistica, resistenza cardiovascolare e forza esplosiva.",
+      description: "Allenamento completo che combina tecnica pugilistica, resistenza cardiovascolare e forza esplosiva.",
       features: ["tecnica pugilistica", "conditioning", "sparring"]
     },
     {
       title: "kickboxing",
       badge: "popolare",
       image: "https://i.pinimg.com/736x/bd/35/71/bd35714617d5f41f3836bc13f9803ef2.jpg",
-      description: "arte marziale dinamica che integra pugni e calci, sviluppando coordinazione e potenza.",
+      description: "Arte marziale dinamica che integra pugni e calci, sviluppando coordinazione e potenza.",
       features: ["tecniche di calcio", "combinazioni", "fitness cardio"]
     },
     {
@@ -74,77 +74,77 @@ export const Courses: React.FC = () => {
       badge: "nuovo",
       badgeType: 'new',
       image: "https://i.pinimg.com/736x/01/d5/1a/01d51ae6ecd45f231cf7caa477fc51db.jpg",
-      description: "arti marziali miste: il sistema di combattimento totale che unisce lotta, striking e sottomissioni.",
+      description: "Arti marziali miste: il sistema di combattimento totale che unisce lotta, striking e sottomissioni.",
       features: ["grappling", "striking", "ground and pound"]
     },
     {
       title: "karate",
       badge: "disponibile",
       image: "https://i.pinimg.com/736x/cd/6e/0f/cd6e0fe86beb0fd68208a55b6e3b6ec8.jpg",
-      description: "l'arte della mano vuota. disciplina giapponese che focalizza su colpi percussivi, parate e katà per lo sviluppo del carattere.",
+      description: "L'arte della mano vuota. Disciplina giapponese che focalizza su colpi percussivi, parate e katà per lo sviluppo del carattere.",
       features: ["kata e kumite", "disciplina", "autodifesa"]
     },
     {
       title: "bodybuilding",
       badge: "isotonico",
       image: "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?q=80&w=1200&auto=format&fit=crop",
-      description: "ipertrofia e forza con il metodo nicotra. macchinari isotonici e pesi liberi di ultima generazione.",
+      description: "Ipertrofia e forza con il metodo Nicotra. Macchinari isotonici e pesi liberi di ultima generazione.",
       features: ["ipertrofia muscolare", "forza pura", "schede personalizzate"]
     },
     {
       title: "kung fu",
       badge: "tradizione",
       image: "https://images.unsplash.com/photo-1555597673-b21d5c935865?q=80&w=1200&auto=format&fit=crop",
-      description: "disciplina millenaria per l'equilibrio tra corpo e mente, attraverso forme e tecniche di difesa.",
+      description: "Disciplina millenaria per l'equilibrio tra corpo e mente, attraverso forme e tecniche di difesa.",
       features: ["forme tradizionali", "autodifesa", "agilità mentale"]
     },
     {
       title: "pilates",
       badge: "benessere",
       image: "https://i.pinimg.com/736x/5f/48/71/5f4871dd39aa951c56c934b80b17e887.jpg",
-      description: "sistema di esercizi che rafforza il core, migliora postura e flessibilità in modo controllato.",
+      description: "Sistema di esercizi che rafforza il core, migliora postura e flessibilità in modo controllato.",
       features: ["core strength", "postura corretta", "mindfulness"]
     },
     {
       title: "brazilian ju jitsu",
       badge: "bjj",
       image: "https://images.unsplash.com/photo-1564415315949-7a0c4c73aab4?q=80&w=1200&auto=format&fit=crop",
-      description: "l'arte della leva e del controllo al suolo. impara a neutralizzare avversari più grandi.",
+      description: "L'arte della leva e del controllo al suolo. Impara a neutralizzare avversari più grandi.",
       features: ["lotta a terra", "sottomissioni", "strategia"]
     },
     {
       title: "ju jitsu",
       badge: "giapponese",
       image: "https://i.pinimg.com/1200x/bd/74/a3/bd74a37cdc2546cc21d215d5bc0b2956.jpg",
-      description: "la dolce arte dell'autodifesa tradizionale giapponese. leve, proiezioni e immobilizzazioni.",
+      description: "La dolce arte dell'autodifesa tradizionale giapponese. Leve, proiezioni e immobilizzazioni.",
       features: ["difesa personale", "leve articolari", "tradizione samurai"]
     },
     {
       title: "ninjutsu",
       badge: "esclusivo",
       image: "https://images.unsplash.com/photo-1552072805-2a9039d00e57?q=80&w=1200&auto=format&fit=crop",
-      description: "l'arte della sopravvivenza e dello stealth. studio di tecniche storiche dei ninja.",
+      description: "L'arte della sopravvivenza e dello stealth. Studio di tecniche storiche dei ninja.",
       features: ["movimenti furtivi", "armi tradizionali", "tattica"]
     },
     {
       title: "kobudo",
       badge: "armi",
       image: "https://i.pinimg.com/1200x/82/3e/87/823e87bddb4b5dc78ee322aaa48be146.jpg",
-      description: "lo studio delle armi tradizionali di okinawa. padroneggia bo, sai, nunchaku e tonfa.",
+      description: "Lo studio delle armi tradizionali di Okinawa. Padroneggia bo, sai, nunchaku e tonfa.",
       features: ["armi orientali", "coordinazione", "precisione"]
     },
     {
       title: "aikido",
       badge: "armonia",
       image: "https://i.pinimg.com/736x/e9/42/17/e94217b91e3022589b93956a5d7f5fd4.jpg",
-      description: "usa l'energia dell'avversario a tuo favore. un'arte marziale non violenta focalizzata sull'armonia.",
+      description: "Usa l'energia dell'avversario a tuo favore. Un'arte marziale non violenta focalizzata sull'armonia.",
       features: ["flusso di energia", "proiezioni", "controllo articolare"]
     },
     {
       title: "zumba",
       badge: "energy",
       image: "https://images.unsplash.com/photo-1524594152303-9fd13543fe6e?q=80&w=1200&auto=format&fit=crop",
-      description: "fitness e divertimento a ritmo di musica. brucia calorie migliorando l'umore.",
+      description: "Fitness e divertimento a ritmo di musica. Brucia calorie migliorando l'umore.",
       features: ["ritmi latini", "brucia grassi", "coordinazione danza"]
     },
     {
@@ -152,7 +152,7 @@ export const Courses: React.FC = () => {
       badge: "nuovo",
       badgeType: 'new',
       image: "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?q=80&w=1200&auto=format&fit=crop",
-      description: "corso dedicato alle donne per imparare tecniche efficaci di autodifesa in situazioni reali. sicurezza, consapevolezza e reazione.",
+      description: "Corso dedicato alle donne per imparare tecniche efficaci di autodifesa in situazioni reali. Sicurezza, consapevolezza e reazione.",
       features: ["tecniche di autodifesa", "gestione dello stress", "consapevolezza situazionale"]
     }
   ];
@@ -162,10 +162,10 @@ export const Courses: React.FC = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-24">
           <h2 className="text-6xl md:text-8xl font-heading mb-6 tracking-tighter lowercase">
-            i nostri <span className="text-red-600 italic">corsi</span>
+            I Nostri <span className="text-red-600 italic">Corsi</span>
           </h2>
           <p className="text-zinc-500 font-bold uppercase tracking-[0.3em] text-[11px] mb-8">
-            l'eccellenza nell'allenamento e nelle arti marziali a catania
+            L'eccellenza nell'allenamento e nelle arti marziali a Catania
           </p>
           <div className="w-32 h-1 bg-red-600 mx-auto rounded-full shadow-[0_0_15px_rgba(220,38,38,0.8)]" />
         </div>

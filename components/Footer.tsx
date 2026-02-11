@@ -8,10 +8,10 @@ export const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start mb-12">
           <div className="space-y-4">
             <span className="text-2xl font-bold tracking-tighter">
-              <span className="text-red-600">salvo</span> <span className="text-white">nicotra</span>
+              <span className="text-red-600">Salvo</span> <span className="text-white">Nicotra</span>
             </span>
             <p className="text-zinc-500 text-sm max-w-xs leading-relaxed lowercase">
-              il punto di riferimento per il fitness e le arti marziali a catania dal 1970. forza, tecnica e passione.
+              Il punto di riferimento per il fitness e le arti marziali a Catania dal 1970. Forza, tecnica e passione.
             </p>
             <div className="flex gap-4 pt-2">
               <a 
@@ -39,7 +39,7 @@ export const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-3 text-zinc-500 text-sm lowercase">
                 <MapPin className="w-4 h-4 text-red-600 mt-0.5" />
-                <span>viale vittorio veneto, 313<br />95126 catania (ct)</span>
+                <span>Viale Vittorio Veneto, 313<br />95126 Catania (CT)</span>
               </li>
             </ul>
           </div>

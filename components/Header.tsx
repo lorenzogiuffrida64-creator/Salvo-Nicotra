@@ -26,11 +26,11 @@ export const Header: React.FC = () => {
   }, []);
 
   const navItems = [
-    { path: '/', label: 'home' },
-    { path: '/chi-siamo', label: 'chi è salvo nicotra' },
-    { path: '/corsi', label: 'i nostri corsi' },
-    { path: '/sala-pesi', label: 'sala pesi' },
-    { path: '/contatti', label: 'contatti' },
+    { path: '/', label: 'Home' },
+    { path: '/chi-siamo', label: 'Chi è Salvo Nicotra' },
+    { path: '/corsi', label: 'I Nostri Corsi' },
+    { path: '/sala-pesi', label: 'Sala Pesi' },
+    { path: '/contatti', label: 'Contatti' },
   ];
 
   const isActive = (path: string) => location.pathname === path;
